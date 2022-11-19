@@ -1,0 +1,9 @@
+{
+  "name": "Figma Plugin Boilerplate",
+  "id": "1175880953920738137",
+  "api": "1.0.0",
+  "main": "dist/plugin.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"],
+  "permissions": ["currentuser"]
+}

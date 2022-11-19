@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"],
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["./src/ui/components/*"],
+      "pages/*": ["./src/ui/pages/*"],
+      "hooks/*":["./src/ui/hooks/*"],
+      "@types": ["./src/types"],
+      "@figma": ["./src/plugin/figma"],
+      "@test": ["./test/helpers"],
+      "ui-test-utils": ["./test/ui-test-utils"],
+      "endpoints/*": ["src/plugin/endpoints/*"],
+      "@theme": ["src/ui/theme"],
+    },
+    "esModuleInterop": true
+  },
+  "exclude": [".fttemplates", "*.txt"],
+}
